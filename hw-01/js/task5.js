@@ -2,27 +2,27 @@
 
 function task5()
 {
-    const avarage = prompt('Оформить доставку товара к себе в страну');
+    let avarage = prompt('Оформить доставку товара к себе в страну');
     let amountPrice
 
     if (avarage !== null) {
-        avarage = inputmessage.toLowerCase();
+        avarage = avarage.toLowerCase();
     
 
-    switch (country) {
-        case Китай:
+    switch (avarage) {
+        case `китай`:
             amountPrice = 100;
         break;
-        case Чили:
+        case `чили`:
             amountPrice = 250;
         break;
-        case Австралия:
+        case `австралия`:
             amountPrice = 170;
         break;
-        case Индия:
+        case `индия`:
             amountPrice = 80;
         break;    
-        case Ямайка:
+        case `ямайка`:
             amountPrice = 120;
         break; 
         default: console.log('В вашей стране доставка не доступна')
@@ -32,7 +32,7 @@ function task5()
     }
 
     if (amountPrice) {
-        console.log ('Доставка в ${avarage} будет стоить ${amountPrice} кредитов')
+        console.log (`Доставка в ${avarage} будет стоить ${amountPrice} кредитов`)
     }
 
 }
