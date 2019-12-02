@@ -1,6 +1,6 @@
 "use strict";
 
-function formatString{ rez = formatString <= 41 ? formatString : formatString.slice(0, 41) + "..." }
+function formatString () { rez = formatString <= 41 ? formatString : formatString.slice(0, 41) + "..." } ;
 
 
 
@@ -11,8 +11,8 @@ console.log(formatString('Vestibulum facilisis, purus nec pulvinar iaculis.'));
 // вернется форматированная строка
 
 console.log(formatString('Curabitur ligula sapien.'));
-// вернется оригинальная строка
+// вернется оригинальная строкаs
 
-console.log(
-  formatString('Nunc sed turpis. Curabitur a felis in nunc fringilla tristique.'),
-)
+console.log(formatString('Nunc sed turpis. Curabitur a felis in nunc fringilla tristique.'));
+
+
