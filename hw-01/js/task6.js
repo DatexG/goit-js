@@ -1,11 +1,13 @@
-"use strict"
+const number = prompt('Please get nubmer 1-6')
+const total = [1,2,3,4,5,6]
 
-function task6()
-{
-    let total = null
-    let number 
 
-    do {
-        number = prompt(`Введите число`);
-    } while    
+number===null 
+
+for (let i = 0; i < number; i+=1 ) {
+    if (i + 1 ===1) {
+        continue;
+    }
 }
+
+console.log(`Total ${number}`)
