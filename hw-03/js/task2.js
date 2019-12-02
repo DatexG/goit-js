@@ -1,0 +1,1 @@
+const ObjectProps = function(obj)

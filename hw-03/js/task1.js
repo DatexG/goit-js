@@ -19,5 +19,10 @@ console.log(user.hobby);
 // znachenie premium-flase
 
 user.premium = false
-console.log(user.premium)
+console.log(user.premium);
 
+// for ... of
+
+for (key in user) {
+  console.log('user', key);
+}
