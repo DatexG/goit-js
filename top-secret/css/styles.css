@@ -46,7 +46,7 @@ ul {
 }
 
 .background {
-  background-image: url(https://charming-face.ru/wp-content/uploads/original_1653.jpg);
+  background-image: url('https://charming-face.ru/wp-content/uploads/original_1653.jpg');
   opacity: 0;
   height: 200px;
 }
