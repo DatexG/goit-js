@@ -15,6 +15,37 @@ ul {
 }
 
 .smoke {
-  font-size: 50px;
+  font-size: 24px;
+	color: #FFFFFF;
+	text-shadow: 
+		-0   -2px 0   #000000,
+		 0   -2px 0   #000000,
+		-0    2px 0   #000000,
+		 0    2px 0   #000000,
+		-2px -0   0   #000000,
+		 2px -0   0   #000000,
+		-2px  0   0   #000000,
+		 2px  0   0   #000000,
+		-1px -2px 0   #000000,
+		 1px -2px 0   #000000,
+		-1px  2px 0   #000000,
+		 1px  2px 0   #000000,
+		-2px -1px 0   #000000,
+		 2px -1px 0   #000000,
+		-2px  1px 0   #000000,
+		 2px  1px 0   #000000,
+		-2px -2px 0   #000000,
+		 2px -2px 0   #000000,
+		-2px  2px 0   #000000,
+		 2px  2px 0   #000000,
+		-2px -2px 0   #000000,
+		 2px -2px 0   #000000,
+		-2px  2px 0   #000000,
+		 2px  2px 0   #000000;
   visibility: hidden;
+}
+
+.background {
+  background-image: url(/images/background.jpg);
+  opacity: 0;
 }
